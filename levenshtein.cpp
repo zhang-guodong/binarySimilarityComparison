@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <vector>
-#include <algorithm>
 #include <iostream>
 using namespace std;
 
@@ -17,21 +13,21 @@ int levenshtein(vector<int> str1, vector<int> str2)
 	int d[length_str1 + 1][length_str2 + 1];
 
 	//赋初始值
-	for (i = 0; i < length_str1+1; i++)
+	for (i = 0; i < length_str1 + 1; i++)
 	{
 		d[i][0] = i;
 	}
-	for (j = 0; j < length_str2+1; j++)
+	for (j = 0; j < length_str2 + 1; j++)
 	{
 		d[0][j] = j;
 	}
 
 	//计算编辑距离
-	for (i = 1; i < length_str1+1; i++)
+	for (i = 1; i < length_str1 + 1; i++)
 	{
-		for (j = 1; j < length_str2+1; j++)
+		for (j = 1; j < length_str2 + 1; j++)
 		{
-			if (str1[i-1] == str2[j-1])
+			if (str1[i - 1] == str2[j - 1])
 			{
 				tmp = 0;
 			}
@@ -39,11 +35,33 @@ int levenshtein(vector<int> str1, vector<int> str2)
 			{
 				tmp = 1;
 			}
-			d[i][j] = min(d[i - 1][j - 1], min(d[i][j - 1], d[i - 1][j])) + tmp;
+			//d[i][j] = min(d[i - 1][j - 1], min(d[i][j - 1], d[i - 1][j])) + tmp;
+			if (d[i - 1][j - 1] < d[i][j - 1])
+			{
+				if (d[i - 1][j - 1] < d[i - 1][j])
+				{
+					d[i][j] = d[i - 1][j - 1] + tmp;
+				}
+				else
+				{
+					d[i][j] = d[i - 1][j] + tmp;
+				}
+			}
+			else
+			{
+				if (d[i][j - 1] < d[i - 1][j])
+				{
+					d[i][j] = d[i][j - 1] + tmp;
+				}
+				else
+				{
+					d[i][j] = d[i - 1][j] + tmp;
+				}
+			}
 		}
 	}
 	
-	//显示结果
+	//显示计算过程矩阵
 	for (i = 0; i < length_str1+1; i++)
 	{
 		for (j = 0; j < length_str2+1; j++)
