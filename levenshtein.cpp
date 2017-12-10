@@ -10,7 +10,8 @@ int levenshtein(vector<int> str1, vector<int> str2)
 
 	int i, j;
 	int tmp;
-	int d[length_str1 + 1][length_str2 + 1];
+//	int d[length_str1 + 1][length_str2 + 1];
+	vector<vector<int>> d(length_str1 + 1, vector<int>(length_str2 + 1));
 
 	//赋初始值
 	for (i = 0; i < length_str1 + 1; i++)
