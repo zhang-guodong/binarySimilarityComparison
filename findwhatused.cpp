@@ -36,7 +36,7 @@ int openMakefileByList()
 		while (getline (in, line))
 		{ 
 //			cout << line << endl;
-            tmp = "code" + line;
+            tmp = "cat " + line + " >> allMakefiles.txt ";
             system(tmp.data());
 		}
 	}
@@ -50,19 +50,20 @@ int openMakefileByList()
 
 int getConnectionConfigAndCode()
 {
-    
+
 }
 
 int rmTmpFile()
 {
-    system("rm MakefileList.txt");
+	system("rm MakefileList.txt");
+//	system("rm allMakefiles.txt");
 }
 
 int main() 
 {
 //  system("find %d -name %d", LINUXCODELOCATION, FILENAME);
-//    findMakefile();
+    findMakefile();
     openMakefileByList();
-//    rmTmpFile();
+    rmTmpFile();
     return 0;
 }
