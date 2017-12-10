@@ -3,8 +3,8 @@
  *
  *程序流程：
  *1、查找Makefile
- *2、依次打开Makefile    //TODO
- *3、获取CONFIG名称和*.o的对应关系
+ *2、依次打开Makefile
+ *3、获取CONFIG名称和*.o的对应关系 //TODO
  *4、打开根目录下的.config
  *5、获取CONFIG名称及其设置值（y或is not set）
  *6、根据对应关系获取目标*.o
@@ -12,7 +12,8 @@
  *8、按照原目录复制
 **/
 #include <stdlib.h>
-
+#include <fstream>
+#include <string>
 #include <iostream>
 using namespace std;
 
@@ -21,17 +22,47 @@ using namespace std;
 
 int findMakefile()
 {
-    system("find Desktop/linux-4.9.10/ -name Makefile fprint MakefileList.txt");
+    system("find Desktop/linux-4.9.10/ -name Makefile >> MakefileList.txt");
 }
 
-int openConfig()
+int openMakefileByList()
+{
+	ifstream in("MakefileList.txt");
+	string line;
+    string tmp;
+
+	if(in)
+	{
+		while (getline (in, line))
+		{ 
+//			cout << line << endl;
+            tmp = "code" + line;
+            system(tmp.data());
+		}
+	}
+	else
+	{
+		cout <<"no MakefileList.txt!" << endl;
+	}
+
+	return 0;
+}
+
+int getConnectionConfigAndCode()
 {
     
+}
+
+int rmTmpFile()
+{
+    system("rm MakefileList.txt");
 }
 
 int main() 
 {
 //  system("find %d -name %d", LINUXCODELOCATION, FILENAME);
-    findMakefile();
+//    findMakefile();
+    openMakefileByList();
+//    rmTmpFile();
     return 0;
 }
