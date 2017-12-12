@@ -42,15 +42,15 @@ int openMakefileByList()
 {
 	ifstream in("MakefileList.txt");
 	string line;
-	string tmp;
+	string command;
 
 	if(in)
 	{
 		while (getline (in, line))
 		{ 
 //			cout << line << endl;
-			tmp = "cat " + line + " >> allMakefiles.txt ";
-			system(tmp.data());
+			command = "cat " + line + " >> allMakefiles.txt ";
+			system(command.data());
 		}
 	}
 	else
@@ -60,11 +60,55 @@ int openMakefileByList()
 	return 0;
 }
 
+int findAndCopyPointO(string linuxCodeLocation)
+{
+	ifstream in("allPointOFiles.txt");
+	string line;
+	if(in)
+	{
+		while(getline(in, line))
+		{
+			line.erase(line.end() - 2, line.end());
+			findFileAndStoreFilename(linuxCodeLocation, line + ".c",
+									 "allPointOFilesLocation.txt");
+			findFileAndStoreFilename(linuxCodeLocation, line + ".h",
+									 "allPointOFilesLocation.txt");
+		}
+	}
+	else
+	{
+		cout <<"no allPointOFiles.txt!" << endl;
+	}
+}
+
+int copyCodeFiles(string aimFolder)
+{
+	ifstream in("allPointOFilesLocation.txt");
+	string line;
+	string command = "mkdir " + aimFolder;
+	system(command.data());
+	if(in)
+	{
+		while(getline(in, line))
+		{
+			command = "cp --parents " + line + " " + aimFolder;
+			system(command.data());
+		}
+	}
+	else
+	{
+		cout <<"no allPointOFilesLocation.txt!" << endl;
+	}
+}
+
 int rmTmpFile()
 {
 	system("rm MakefileList.txt");
 	system("rm allMakefiles.txt");
 	system("rm allPointOfiles.txt");
+	system("rm allPointOFilesLocation.txt");
+
+	return 0;
 }
 
 int main() 
@@ -82,7 +126,11 @@ int main()
 	//查找所有的Makefile中的*.o，储存到allPointOFiles.txt
 	findPointOInAllMakefiles();
 
-//	findPointOCodeFiles();
+	//查找*.c*.h和的位置，储存到allPointOFilesLocation.txt
+	findAndCopyPointO(linuxCodeLocation);
+
+	//按照原目录复制*.c*.h到新目录
+	copyCodeFiles("linuxCodeUsed");
 
 	//删除程序执行过程中产生的临时文件
 //	rmTmpFile();
