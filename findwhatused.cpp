@@ -23,9 +23,11 @@
 #include <iostream>
 using namespace std;
 
-int findPointOInAllMakefiles()
+int findPointOInAllMakefiles(string allMakefiles,
+							 string allPointOFiles)
 {
-	system("grep -o -E \"[0-9a-zA-Z-]+\.o|\w+\.o\" allMakefiles.txt >> allPointOFiles.txt");
+	string command = "grep -o -E \"[0-9a-zA-Z-]+\.o|\w+\.o\" "
+					 + allMakefiles + " >> " + allPointOFiles;
 }
 
 int findFileAndStoreFilename(string linuxCodeLocation,
@@ -38,9 +40,9 @@ int findFileAndStoreFilename(string linuxCodeLocation,
 	return 0;
 }
 
-int openMakefileByList()
+int openMakefileByList(string MakefileList, string allMakefiles)
 {
-	ifstream in("MakefileList.txt");
+	ifstream in(MakefileList);
 	string line;
 	string command;
 
@@ -48,21 +50,22 @@ int openMakefileByList()
 	{
 		while (getline (in, line))
 		{ 
-//			cout << line << endl;
-			command = "cat " + line + " >> allMakefiles.txt ";
+			command = "cat " + line + " >> " + allMakefiles;
 			system(command.data());
 		}
 	}
 	else
 	{
-		cout <<"no MakefileList.txt!" << endl;
+		cout << "no " << MakefileList << "!" << endl;
 	}
 	return 0;
 }
 
-int findAndCopyPointO(string linuxCodeLocation)
+int getLocationOfPointO(string linuxCodeLocation,
+						string allPointOFiles,
+						string allCodeFilesLocation)
 {
-	ifstream in("allPointOFiles.txt");
+	ifstream in(allPointOFiles);
 	string line;
 	if(in)
 	{
@@ -70,20 +73,20 @@ int findAndCopyPointO(string linuxCodeLocation)
 		{
 			line.erase(line.end() - 2, line.end());
 			findFileAndStoreFilename(linuxCodeLocation, line + ".c",
-									 "allPointOFilesLocation.txt");
+									 allCodeFilesLocation);
 			findFileAndStoreFilename(linuxCodeLocation, line + ".h",
-									 "allPointOFilesLocation.txt");
+									 allCodeFilesLocation);
 		}
 	}
 	else
 	{
-		cout <<"no allPointOFiles.txt!" << endl;
+		cout <<"no " << allPointOFiles << "!" << endl;
 	}
 }
 
-int copyCodeFiles(string aimFolder)
+int copyCodeFiles(string aimFolder, string allCodeFilesLocation)
 {
-	ifstream in("allPointOFilesLocation.txt");
+	ifstream in(allCodeFilesLocation);
 	string line;
 	string command = "mkdir " + aimFolder;
 	system(command.data());
@@ -97,43 +100,68 @@ int copyCodeFiles(string aimFolder)
 	}
 	else
 	{
-		cout <<"no allPointOFilesLocation.txt!" << endl;
+		cout <<"no " << allCodeFilesLocation << "!" << endl;
 	}
 }
 
-int rmTmpFile()
+int showOverTime()
 {
-	system("rm MakefileList.txt");
-	system("rm allMakefiles.txt");
-	system("rm allPointOfiles.txt");
-	system("rm allPointOFilesLocation.txt");
+	cout << "完成！\t";
+	system("date +%%T");
+}
 
-	return 0;
+int rmTmpFile(string fileName)
+{
+	string command = "rm " + fileName;
+	system(command.data());
 }
 
 int main() 
 {
 	//源码压缩包解压后的文件夹的根目录
-	string linuxCodeLocation = "Desktop/linux-4.9.10/";
+	string linuxCodeLocation = "Desktop/linux-4.10.10/";
+	//复制目的地文件夹
+	string aimFolder = "codeUsedIn41010";
+	//Makefile目录表
+	string MakefileList = "MakefileList.txt";
+	//Makefile中的内容
+	string allMakefiles = "allMakefiles.txt";
+	//从Makefile中获得的.o文件名册
+	string allPointOFiles = "allPointOFiles.txt";
+	//.o文件目录表
+	string allCodeFilesLocation = "allCodeFilesLocation.txt";
 
 	//查找文件夹中所有的Makefile，储存到MakefileList.txt
-	findFileAndStoreFilename(linuxCodeLocation, "Makefile", "MakefileList.txt");
+	cout << "正在查找Makefile文件..." << endl;
+	findFileAndStoreFilename(linuxCodeLocation, "Makefile", MakefileList);
+	showOverTime();
 
 	//依次打开所有的Makefile，获取其中的内容
 	//TODO：获取CONFIG和*.o的对应关系
-	openMakefileByList();
+	cout << "正在获取Makefile中的内容..." << endl;
+	openMakefileByList(MakefileList, allMakefiles);
+	showOverTime();
 
 	//查找所有的Makefile中的*.o，储存到allPointOFiles.txt
-	findPointOInAllMakefiles();
+	cout << "正在查找Makefile中的.o文件..." << endl;
+	findPointOInAllMakefiles(allMakefiles, allPointOFiles);
+	showOverTime();
 
-	//查找*.c*.h和的位置，储存到allPointOFilesLocation.txt
-	findAndCopyPointO(linuxCodeLocation);
+	//查找*.c*.h和的位置，储存到allCodeFilesLocation.txt
+	cout << "正在查找源码位置..." << endl;
+	getLocationOfPointO(linuxCodeLocation, allPointOFiles, allCodeFilesLocation);
+	showOverTime();
 
 	//按照原目录复制*.c*.h到新目录
-	copyCodeFiles("linuxCodeUsed");
+	cout << "正在复制源码..." << endl;
+	copyCodeFiles(aimFolder, allCodeFilesLocation);
+	showOverTime();
 
 	//删除程序执行过程中产生的临时文件
-//	rmTmpFile();
-
+	rmTmpFile(MakefileList);
+	rmTmpFile(allMakefiles);
+	rmTmpFile(allPointOFiles);
+	rmTmpFile(allCodeFilesLocation);
+	showOverTime();
     return 0;
 }
