@@ -28,6 +28,7 @@ int findPointOInAllMakefiles(string allMakefiles,
 {
 	string command = "grep -o -E \"[0-9a-zA-Z-]+\.o|\w+\.o\" "
 					 + allMakefiles + " >> " + allPointOFiles;
+	system(command.data());
 }
 
 int findFileAndStoreFilename(string linuxCodeLocation,
@@ -106,8 +107,7 @@ int copyCodeFiles(string aimFolder, string allCodeFilesLocation)
 
 int showOverTime()
 {
-	cout << "完成！\t";
-	system("date +%%T");
+	system("date");
 }
 
 int rmTmpFile(string fileName)
