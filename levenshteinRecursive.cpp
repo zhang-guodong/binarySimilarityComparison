@@ -9,13 +9,10 @@ int levenshtein(vector<int> str1, vector<int> str2)
     int length_str1 = str1.size();
     int length_str2 = str2.size();
 
-    cout << "执行\t" << length_str1 << "\t" << length_str2 << endl;
-
     if (min(length_str1, length_str2) == 0)
         result = max(length_str1, length_str2);
     else 
     {
-
         //create no last one vector
         vector<int> str1_less1(length_str1 - 1);
         vector<int> str2_less1(length_str2 - 1);
@@ -31,8 +28,6 @@ int levenshtein(vector<int> str1, vector<int> str2)
         else
             result = min_lastThree + 1; 
     }
-
-    cout << "结果\t" << length_str1 << "\t" << length_str2 << "\t" << result << endl;
 
     return result;
 }
