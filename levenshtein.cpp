@@ -61,7 +61,7 @@ int levenshtein(vector<int> str1, vector<int> str2)
 			}
 		}
 	}
-	
+/*	
 	//显示计算过程矩阵
 	for (i = 0; i < length_str1+1; i++)
 	{
@@ -71,15 +71,21 @@ int levenshtein(vector<int> str1, vector<int> str2)
 		}
 		cout<<endl;
 	}
-
+*/
 	//返回编辑距离
 	return d[length_str1][length_str2];
 }
 
 int main()
 {
-	vector<int> str1{9,8,5,7};
+	vector<int> str1{9,8,7};
 	vector<int> str2{9,8,5}; 
 	cout << levenshtein(str1, str2);
+	vector<int> str3{5,8,7};
+	vector<int> str4{8,8,5}; 
+	cout << levenshtein(str3, str4);
+	vector<int> str5{9,8,7,5,8,7};
+	vector<int> str6{9,8,5,8,8,5}; 
+	cout << levenshtein(str5, str6);
 	return 0;
 }
