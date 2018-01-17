@@ -20,14 +20,12 @@
 "tzcnt",
 "prefetchnta"
 */
-#include "sortInstruction.h"
 #include <map>
 #include <iostream>
+#include "sortInstruction.h"
 using namespace std;
 
-int sortInstruction(string order)
-{
-    map<string, int> allOrder =
+map<string, int> allOrder =
     {
         //1、数据传输
         //1-1、通用数据传送指令
@@ -93,6 +91,8 @@ int sortInstruction(string order)
 //        {"", },
 
     };
-    
+
+int sortInstruction(string order)
+{
     return allOrder[order];
 }
