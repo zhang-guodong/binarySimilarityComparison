@@ -20,10 +20,8 @@
 "tzcnt",
 "prefetchnta"
 */
-#include <map>
-#include <iostream>
+#include <fstream>
 #include "sortInstruction.h"
-using namespace std;
 
 map<string, int> allOrder =
     {
@@ -94,5 +92,13 @@ map<string, int> allOrder =
 
 int sortInstruction(string order)
 {
-    return allOrder[order];
+    int type = allOrder[order];
+    if (type == 0)
+    {
+        ofstream mcfile;
+        mcfile.open("orderNotInMap.txt", ios::app);
+        mcfile << order << endl;
+        mcfile.close();
+    }
+    return type;
 }
