@@ -87,6 +87,12 @@
 		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/main.cpp">
 			<Option target="binarySimilarityComparison"/>
 		</Unit>
+		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/mapOfMIPSInstructionSet.cpp">
+			<Option target="binarySimilarityComparison"/>
+		</Unit>
+		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/mapOfMIPSInstructionSet.h">
+			<Option target="binarySimilarityComparison"/>
+		</Unit>
 		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

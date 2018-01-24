@@ -3,4 +3,4 @@ project(binarySimilarityComparison)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(binarySimilarityComparison main.cpp)
+add_executable(binarySimilarityComparison main.cpp mapOfMIPSInstructionSet.cpp mapOfMIPSInstructionSet.h)

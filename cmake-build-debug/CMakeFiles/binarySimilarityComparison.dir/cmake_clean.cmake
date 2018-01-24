@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/binarySimilarityComparison.dir/main.cpp.o"
+  "CMakeFiles/binarySimilarityComparison.dir/mapOfMIPSInstructionSet.cpp.o"
   "binarySimilarityComparison.pdb"
   "binarySimilarityComparison"
 )
