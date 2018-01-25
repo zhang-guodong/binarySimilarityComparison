@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.cpp">
+			<Option target="binarySimilarityComparison"/>
+		</Unit>
+		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.h">
+			<Option target="binarySimilarityComparison"/>
+		</Unit>
 		<Unit filename="/home/zhanggd/Desktop/binarySimilarityComparison/main.cpp">
 			<Option target="binarySimilarityComparison"/>
 		</Unit>

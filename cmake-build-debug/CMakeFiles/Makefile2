@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-
 CMakeFiles/binarySimilarityComparison.dir/all:
 	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/depend
 	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target binarySimilarityComparison"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target binarySimilarityComparison"
 .PHONY : CMakeFiles/binarySimilarityComparison.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/binarySimilarityComparison.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binarySimilarityComparison.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binarySimilarityComparison.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhanggd/Desktop/binarySimilarityComparison/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/binarySimilarityComparison.dir/rule

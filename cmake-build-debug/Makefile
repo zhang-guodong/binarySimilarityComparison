@@ -123,6 +123,33 @@ binarySimilarityComparison/fast:
 	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/build
 .PHONY : binarySimilarityComparison/fast
 
+RabinKarpAlgorithm.o: RabinKarpAlgorithm.cpp.o
+
+.PHONY : RabinKarpAlgorithm.o
+
+# target to build an object file
+RabinKarpAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/RabinKarpAlgorithm.cpp.o
+.PHONY : RabinKarpAlgorithm.cpp.o
+
+RabinKarpAlgorithm.i: RabinKarpAlgorithm.cpp.i
+
+.PHONY : RabinKarpAlgorithm.i
+
+# target to preprocess a source file
+RabinKarpAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/RabinKarpAlgorithm.cpp.i
+.PHONY : RabinKarpAlgorithm.cpp.i
+
+RabinKarpAlgorithm.s: RabinKarpAlgorithm.cpp.s
+
+.PHONY : RabinKarpAlgorithm.s
+
+# target to generate assembly for a file
+RabinKarpAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/binarySimilarityComparison.dir/build.make CMakeFiles/binarySimilarityComparison.dir/RabinKarpAlgorithm.cpp.s
+.PHONY : RabinKarpAlgorithm.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... binarySimilarityComparison"
+	@echo "... RabinKarpAlgorithm.o"
+	@echo "... RabinKarpAlgorithm.i"
+	@echo "... RabinKarpAlgorithm.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
