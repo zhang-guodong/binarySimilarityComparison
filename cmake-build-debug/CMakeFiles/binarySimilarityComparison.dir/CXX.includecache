@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.cpp
+RabinKarpAlgorithm.h
+/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.h
+
+/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.h
+iostream
+-
+
 /home/zhanggd/Desktop/binarySimilarityComparison/main.cpp
-mapOfMIPSInstructionSet.h
-/home/zhanggd/Desktop/binarySimilarityComparison/mapOfMIPSInstructionSet.h
+RabinKarpAlgorithm.h
+/home/zhanggd/Desktop/binarySimilarityComparison/RabinKarpAlgorithm.h
+iostream
+-
 
 /home/zhanggd/Desktop/binarySimilarityComparison/mapOfMIPSInstructionSet.cpp
 mapOfMIPSInstructionSet.h
