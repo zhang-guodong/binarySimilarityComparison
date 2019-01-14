@@ -1,0 +1,2 @@
+aux_source_directory(. DIR_SUFFIXTREERESOLVER_SRCS)
+add_library(SuffixTreeResolver ${DIR_SUFFIXTREERESOLVER_SRCS})

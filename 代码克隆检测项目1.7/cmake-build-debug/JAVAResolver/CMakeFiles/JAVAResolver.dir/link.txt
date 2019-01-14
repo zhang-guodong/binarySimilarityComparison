@@ -1,0 +1,2 @@
+/usr/bin/ar qc libJAVAResolver.a  CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o
+/usr/bin/ranlib libJAVAResolver.a

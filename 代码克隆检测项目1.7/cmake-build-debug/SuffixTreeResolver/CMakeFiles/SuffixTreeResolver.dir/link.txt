@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSuffixTreeResolver.a  CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o
+/usr/bin/ranlib libSuffixTreeResolver.a

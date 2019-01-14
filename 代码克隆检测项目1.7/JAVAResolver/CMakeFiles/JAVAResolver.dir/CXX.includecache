@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp
+JavaClassToToken.h
+/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+
+/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+iostream
+-
+fstream
+-
+stdlib.h
+-
+unistd.h
+-
+vector
+-
+map
+-
+string
+-
+

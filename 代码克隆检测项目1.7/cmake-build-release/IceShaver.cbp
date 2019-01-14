@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IceShaver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MIPSResolver\;CMake Files\SuffixTreeResolver\;CMake Files\JAVAResolver\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IceShaver">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/IceShaver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 IceShaver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IceShaver/fast">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/IceShaver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 IceShaver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MIPSResolver">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/libMIPSResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 MIPSResolver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MIPSResolver/fast">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/libMIPSResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 MIPSResolver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/MIPSResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuffixTreeResolver">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/libSuffixTreeResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 SuffixTreeResolver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SuffixTreeResolver/fast">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/libSuffixTreeResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 SuffixTreeResolver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JAVAResolver">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/libJAVAResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 JAVAResolver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JAVAResolver/fast">
+				<Option output="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/libJAVAResolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/."/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver"/>
+					<Add directory="/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 JAVAResolver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenX86Files.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeJavaDir.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeX86Dir.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/CommandFinder.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/CommandFinder.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/DirParser.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/DirParser.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/FileNameGenerator.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/FileNameGenerator.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.h">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.h">
+			<Option target="JAVAResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/Levenshtein.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/Levenshtein.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.cpp">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h">
+			<Option target="MIPSResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MatchSaver.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MatchSaver.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MatrixSaver.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MatrixSaver.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/Pretreatment.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/Pretreatment.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SimilarPortion.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SimilarPortion.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.h">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.h">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.h">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.h">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.h">
+			<Option target="SuffixTreeResolver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TextPartParser.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TextPartParser.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/ToNGramToken.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/ToNGramToken.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TokenAnalyzer.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TokenAnalyzer.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TokenGenerater.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/TokenGenerater.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/WindowMatch.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/WindowMatch.h">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/main.cpp">
+			<Option target="IceShaver"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MIPSResolver\"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SuffixTreeResolver\"/>
+		</Unit>
+		<Unit filename="/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JAVAResolver\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
