@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.cpp
 FunctionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 string
 -
 FunctionCutter.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
 TableAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
 SectionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
 MIPSPretreatment.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.cpp
 FunctionCutter.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionCutter.h
 string
 -
 fstream
@@ -34,23 +34,23 @@ fstream
 iostream
 -
 FunctionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 MIPSResolverUtil.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.cpp
 bitset
 -
 algorithm
 -
 MIPSCodeResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
 FunctionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 MIPSCommand.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
 iostream
 -
 string
@@ -60,33 +60,33 @@ fstream
 vector
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.cpp
 MIPSCommand.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommand.h
 bitset
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.cpp
 vector
 -
 MIPSCommandFinder.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
 iostream
 -
 MIPSCommandFinder.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.cpp
 MIPSCommandResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
 FunctionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
 string
 -
 vector
@@ -96,17 +96,17 @@ fstream
 bitset
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.cpp
 fstream
 -
 MIPSOperationResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
 MIPSPretreatment.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
 MIPSCommandFinder.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandFinder.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
 bitset
 -
 vector
@@ -116,11 +116,11 @@ map
 string
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.cpp
 MIPSPretreatment.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSPretreatment.h
 string
 -
 iostream
@@ -128,37 +128,37 @@ iostream
 vector
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.cpp
 iostream
 -
 FunctionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/FunctionAnalyzer.h
 MIPSCommandResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCommandResolver.h
 MIPSCodeResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSCodeResolver.h
 MIPSResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.h
 MIPSOperationResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSOperationResolver.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolver.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.cpp
 MIPSResolverUtil.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/MIPSResolverUtil.h
 string
 -
 iostream
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.cpp
 SectionAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/SectionAnalyzer.h
 string
 -
 fstream
@@ -166,11 +166,11 @@ fstream
 iostream
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.cpp
 TableAnalyzer.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MIPSResolver/TableAnalyzer.h
 string
 -
 fstream

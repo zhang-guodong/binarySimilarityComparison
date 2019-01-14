@@ -43,10 +43,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include JAVAResolver/CMakeFiles/JAVAResolver.dir/depend.make
@@ -59,42 +59,42 @@ include JAVAResolver/CMakeFiles/JAVAResolver.dir/flags.make
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o: JAVAResolver/CMakeFiles/JAVAResolver.dir/flags.make
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o: ../JAVAResolver/JavaClassToToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp > CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp > CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp -o CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp -o CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o: JAVAResolver/CMakeFiles/JAVAResolver.dir/flags.make
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o: ../JAVAResolver/JavaPertreatment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp > CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp > CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp -o CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp -o CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o: JAVAResolver/CMakeFiles/JAVAResolver.dir/flags.make
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o: ../JAVAResolver/JavaResolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp > CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp > CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp -o CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp -o CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s
 
 # Object files for target JAVAResolver
 JAVAResolver_OBJECTS = \
@@ -110,9 +110,9 @@ JAVAResolver/libJAVAResolver.a: JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPer
 JAVAResolver/libJAVAResolver.a: JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o
 JAVAResolver/libJAVAResolver.a: JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make
 JAVAResolver/libJAVAResolver.a: JAVAResolver/CMakeFiles/JAVAResolver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libJAVAResolver.a"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -P CMakeFiles/JAVAResolver.dir/cmake_clean_target.cmake
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JAVAResolver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libJAVAResolver.a"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -P CMakeFiles/JAVAResolver.dir/cmake_clean_target.cmake
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JAVAResolver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 JAVAResolver/CMakeFiles/JAVAResolver.dir/build: JAVAResolver/libJAVAResolver.a
@@ -120,10 +120,10 @@ JAVAResolver/CMakeFiles/JAVAResolver.dir/build: JAVAResolver/libJAVAResolver.a
 .PHONY : JAVAResolver/CMakeFiles/JAVAResolver.dir/build
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/clean:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -P CMakeFiles/JAVAResolver.dir/cmake_clean.cmake
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver && $(CMAKE_COMMAND) -P CMakeFiles/JAVAResolver.dir/cmake_clean.cmake
 .PHONY : JAVAResolver/CMakeFiles/JAVAResolver.dir/clean
 
 JAVAResolver/CMakeFiles/JAVAResolver.dir/depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/Desktop/代码克隆检测项目1.7 /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7 /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : JAVAResolver/CMakeFiles/JAVAResolver.dir/depend
 

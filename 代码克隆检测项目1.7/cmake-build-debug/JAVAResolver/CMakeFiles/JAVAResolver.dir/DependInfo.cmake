@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

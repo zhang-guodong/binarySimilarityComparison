@@ -48,10 +48,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/CMakeFiles /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/CMakeFiles/progress.marks
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/CMakeFiles 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/CMakeFiles /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/SuffixTreeResolver/CMakeFiles/progress.marks
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/clean
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/rule:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/rule
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/rule
 .PHONY : SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ SuffixTreeResolver: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/rule
 
 # fast build rule for target.
 SuffixTreeResolver/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build
 .PHONY : SuffixTreeResolver/fast
 
 Edge.o: Edge.cpp.o
@@ -131,7 +131,7 @@ Edge.o: Edge.cpp.o
 
 # target to build an object file
 Edge.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o
 .PHONY : Edge.cpp.o
 
 Edge.i: Edge.cpp.i
@@ -140,7 +140,7 @@ Edge.i: Edge.cpp.i
 
 # target to preprocess a source file
 Edge.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i
 .PHONY : Edge.cpp.i
 
 Edge.s: Edge.cpp.s
@@ -149,7 +149,7 @@ Edge.s: Edge.cpp.s
 
 # target to generate assembly for a file
 Edge.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s
 .PHONY : Edge.cpp.s
 
 Node.o: Node.cpp.o
@@ -158,7 +158,7 @@ Node.o: Node.cpp.o
 
 # target to build an object file
 Node.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o
 .PHONY : Node.cpp.o
 
 Node.i: Node.cpp.i
@@ -167,7 +167,7 @@ Node.i: Node.cpp.i
 
 # target to preprocess a source file
 Node.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i
 .PHONY : Node.cpp.i
 
 Node.s: Node.cpp.s
@@ -176,7 +176,7 @@ Node.s: Node.cpp.s
 
 # target to generate assembly for a file
 Node.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s
 .PHONY : Node.cpp.s
 
 SuffixTree.o: SuffixTree.cpp.o
@@ -185,7 +185,7 @@ SuffixTree.o: SuffixTree.cpp.o
 
 # target to build an object file
 SuffixTree.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o
 .PHONY : SuffixTree.cpp.o
 
 SuffixTree.i: SuffixTree.cpp.i
@@ -194,7 +194,7 @@ SuffixTree.i: SuffixTree.cpp.i
 
 # target to preprocess a source file
 SuffixTree.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i
 .PHONY : SuffixTree.cpp.i
 
 SuffixTree.s: SuffixTree.cpp.s
@@ -203,7 +203,7 @@ SuffixTree.s: SuffixTree.cpp.s
 
 # target to generate assembly for a file
 SuffixTree.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s
 .PHONY : SuffixTree.cpp.s
 
 SuffixTreeMatch.o: SuffixTreeMatch.cpp.o
@@ -212,7 +212,7 @@ SuffixTreeMatch.o: SuffixTreeMatch.cpp.o
 
 # target to build an object file
 SuffixTreeMatch.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o
 .PHONY : SuffixTreeMatch.cpp.o
 
 SuffixTreeMatch.i: SuffixTreeMatch.cpp.i
@@ -221,7 +221,7 @@ SuffixTreeMatch.i: SuffixTreeMatch.cpp.i
 
 # target to preprocess a source file
 SuffixTreeMatch.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i
 .PHONY : SuffixTreeMatch.cpp.i
 
 SuffixTreeMatch.s: SuffixTreeMatch.cpp.s
@@ -230,7 +230,7 @@ SuffixTreeMatch.s: SuffixTreeMatch.cpp.s
 
 # target to generate assembly for a file
 SuffixTreeMatch.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s
 .PHONY : SuffixTreeMatch.cpp.s
 
 SuffixTreeResolver.o: SuffixTreeResolver.cpp.o
@@ -239,7 +239,7 @@ SuffixTreeResolver.o: SuffixTreeResolver.cpp.o
 
 # target to build an object file
 SuffixTreeResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o
 .PHONY : SuffixTreeResolver.cpp.o
 
 SuffixTreeResolver.i: SuffixTreeResolver.cpp.i
@@ -248,7 +248,7 @@ SuffixTreeResolver.i: SuffixTreeResolver.cpp.i
 
 # target to preprocess a source file
 SuffixTreeResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i
 .PHONY : SuffixTreeResolver.cpp.i
 
 SuffixTreeResolver.s: SuffixTreeResolver.cpp.s
@@ -257,7 +257,7 @@ SuffixTreeResolver.s: SuffixTreeResolver.cpp.s
 
 # target to generate assembly for a file
 SuffixTreeResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s
 .PHONY : SuffixTreeResolver.cpp.s
 
 # Help Target
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

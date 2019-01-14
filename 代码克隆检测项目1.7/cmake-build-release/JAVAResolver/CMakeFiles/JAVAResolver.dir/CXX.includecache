@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.cpp
 JavaClassToToken.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
 iostream
 -
 fstream
@@ -26,13 +26,19 @@ map
 string
 -
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp
-JavaResolver.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.h
-JavaClassToToken.h
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.cpp
+JavaPertreatment.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.h
 
-/home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver/JavaResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaPertreatment.h
+
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.cpp
+JavaResolver.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.h
+JavaClassToToken.h
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaClassToToken.h
+
+/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver/JavaResolver.h
 string
 -
 vector

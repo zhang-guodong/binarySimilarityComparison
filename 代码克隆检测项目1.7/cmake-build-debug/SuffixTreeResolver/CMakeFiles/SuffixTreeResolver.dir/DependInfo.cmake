@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o"
-  "/home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp" "/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o"
+  "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp" "/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

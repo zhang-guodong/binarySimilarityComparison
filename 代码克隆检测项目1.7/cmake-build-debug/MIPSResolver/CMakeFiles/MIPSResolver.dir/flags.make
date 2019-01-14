@@ -6,5 +6,5 @@ CXX_FLAGS =  -O0 -Wall -g -ggdb   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gdzhang/Desktop/代码克隆检测项目1.7/. -I/home/gdzhang/Desktop/代码克隆检测项目1.7/./MIPSResolver -I/home/gdzhang/Desktop/代码克隆检测项目1.7/./SuffixTreeResolver -I/home/gdzhang/Desktop/代码克隆检测项目1.7/./JAVAResolver 
+CXX_INCLUDES = -I/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/. -I/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/./MIPSResolver -I/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/./SuffixTreeResolver -I/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/./JAVAResolver 
 

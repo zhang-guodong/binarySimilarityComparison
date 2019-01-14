@@ -1,4 +1,4 @@
-# Install script for directory: /home/gdzhang/Desktop/代码克隆检测项目1.7/JAVAResolver
+# Install script for directory: /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/JAVAResolver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

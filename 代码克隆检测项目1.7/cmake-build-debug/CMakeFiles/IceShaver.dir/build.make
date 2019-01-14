@@ -43,10 +43,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IceShaver.dir/depend.make
@@ -59,263 +59,263 @@ include CMakeFiles/IceShaver.dir/flags.make
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o: ../AnalyzeBetweenJavaFiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenJavaFiles.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenJavaFiles.cpp.s
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o: ../AnalyzeBetweenMIPSFiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenMIPSFiles.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenMIPSFiles.cpp.s
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o: ../AnalyzeBetweenX86Files.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp > CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeBetweenX86Files.cpp -o CMakeFiles/IceShaver.dir/AnalyzeBetweenX86Files.cpp.s
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o: ../AnalyzeWholeJavaDir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeJavaDir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeJavaDir.cpp.s
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o: ../AnalyzeWholeMIPSDir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeMIPSDir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeMIPSDir.cpp.s
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o: ../AnalyzeWholeX86Dir.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp > CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.i
 
 CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/AnalyzeWholeX86Dir.cpp -o CMakeFiles/IceShaver.dir/AnalyzeWholeX86Dir.cpp.s
 
 CMakeFiles/IceShaver.dir/CommandFinder.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/CommandFinder.cpp.o: ../CommandFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/IceShaver.dir/CommandFinder.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/CommandFinder.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/CommandFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/IceShaver.dir/CommandFinder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/CommandFinder.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/CommandFinder.cpp
 
 CMakeFiles/IceShaver.dir/CommandFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/CommandFinder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/CommandFinder.cpp > CMakeFiles/IceShaver.dir/CommandFinder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/CommandFinder.cpp > CMakeFiles/IceShaver.dir/CommandFinder.cpp.i
 
 CMakeFiles/IceShaver.dir/CommandFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/CommandFinder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/CommandFinder.cpp -o CMakeFiles/IceShaver.dir/CommandFinder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/CommandFinder.cpp -o CMakeFiles/IceShaver.dir/CommandFinder.cpp.s
 
 CMakeFiles/IceShaver.dir/DirParser.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/DirParser.cpp.o: ../DirParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/IceShaver.dir/DirParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/DirParser.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/DirParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/IceShaver.dir/DirParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/DirParser.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/DirParser.cpp
 
 CMakeFiles/IceShaver.dir/DirParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/DirParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/DirParser.cpp > CMakeFiles/IceShaver.dir/DirParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/DirParser.cpp > CMakeFiles/IceShaver.dir/DirParser.cpp.i
 
 CMakeFiles/IceShaver.dir/DirParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/DirParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/DirParser.cpp -o CMakeFiles/IceShaver.dir/DirParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/DirParser.cpp -o CMakeFiles/IceShaver.dir/DirParser.cpp.s
 
 CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o: ../FileNameGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/FileNameGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/FileNameGenerator.cpp
 
 CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/FileNameGenerator.cpp > CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/FileNameGenerator.cpp > CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.i
 
 CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/FileNameGenerator.cpp -o CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/FileNameGenerator.cpp -o CMakeFiles/IceShaver.dir/FileNameGenerator.cpp.s
 
 CMakeFiles/IceShaver.dir/Levenshtein.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/Levenshtein.cpp.o: ../Levenshtein.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/IceShaver.dir/Levenshtein.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/Levenshtein.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/Levenshtein.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/IceShaver.dir/Levenshtein.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/Levenshtein.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Levenshtein.cpp
 
 CMakeFiles/IceShaver.dir/Levenshtein.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/Levenshtein.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/Levenshtein.cpp > CMakeFiles/IceShaver.dir/Levenshtein.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Levenshtein.cpp > CMakeFiles/IceShaver.dir/Levenshtein.cpp.i
 
 CMakeFiles/IceShaver.dir/Levenshtein.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/Levenshtein.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/Levenshtein.cpp -o CMakeFiles/IceShaver.dir/Levenshtein.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Levenshtein.cpp -o CMakeFiles/IceShaver.dir/Levenshtein.cpp.s
 
 CMakeFiles/IceShaver.dir/MatchSaver.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/MatchSaver.cpp.o: ../MatchSaver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/IceShaver.dir/MatchSaver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/MatchSaver.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/MatchSaver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/IceShaver.dir/MatchSaver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/MatchSaver.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatchSaver.cpp
 
 CMakeFiles/IceShaver.dir/MatchSaver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/MatchSaver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/MatchSaver.cpp > CMakeFiles/IceShaver.dir/MatchSaver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatchSaver.cpp > CMakeFiles/IceShaver.dir/MatchSaver.cpp.i
 
 CMakeFiles/IceShaver.dir/MatchSaver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/MatchSaver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/MatchSaver.cpp -o CMakeFiles/IceShaver.dir/MatchSaver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatchSaver.cpp -o CMakeFiles/IceShaver.dir/MatchSaver.cpp.s
 
 CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o: ../MatrixSaver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/MatrixSaver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/MatrixSaver.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatrixSaver.cpp
 
 CMakeFiles/IceShaver.dir/MatrixSaver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/MatrixSaver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/MatrixSaver.cpp > CMakeFiles/IceShaver.dir/MatrixSaver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatrixSaver.cpp > CMakeFiles/IceShaver.dir/MatrixSaver.cpp.i
 
 CMakeFiles/IceShaver.dir/MatrixSaver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/MatrixSaver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/MatrixSaver.cpp -o CMakeFiles/IceShaver.dir/MatrixSaver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/MatrixSaver.cpp -o CMakeFiles/IceShaver.dir/MatrixSaver.cpp.s
 
 CMakeFiles/IceShaver.dir/Pretreatment.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/Pretreatment.cpp.o: ../Pretreatment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/IceShaver.dir/Pretreatment.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/Pretreatment.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/Pretreatment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/IceShaver.dir/Pretreatment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/Pretreatment.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Pretreatment.cpp
 
 CMakeFiles/IceShaver.dir/Pretreatment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/Pretreatment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/Pretreatment.cpp > CMakeFiles/IceShaver.dir/Pretreatment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Pretreatment.cpp > CMakeFiles/IceShaver.dir/Pretreatment.cpp.i
 
 CMakeFiles/IceShaver.dir/Pretreatment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/Pretreatment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/Pretreatment.cpp -o CMakeFiles/IceShaver.dir/Pretreatment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/Pretreatment.cpp -o CMakeFiles/IceShaver.dir/Pretreatment.cpp.s
 
 CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o: ../SimilarPortion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SimilarPortion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/SimilarPortion.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SimilarPortion.cpp
 
 CMakeFiles/IceShaver.dir/SimilarPortion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/SimilarPortion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SimilarPortion.cpp > CMakeFiles/IceShaver.dir/SimilarPortion.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SimilarPortion.cpp > CMakeFiles/IceShaver.dir/SimilarPortion.cpp.i
 
 CMakeFiles/IceShaver.dir/SimilarPortion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/SimilarPortion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SimilarPortion.cpp -o CMakeFiles/IceShaver.dir/SimilarPortion.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SimilarPortion.cpp -o CMakeFiles/IceShaver.dir/SimilarPortion.cpp.s
 
 CMakeFiles/IceShaver.dir/TextPartParser.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/TextPartParser.cpp.o: ../TextPartParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/IceShaver.dir/TextPartParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TextPartParser.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/TextPartParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/IceShaver.dir/TextPartParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TextPartParser.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TextPartParser.cpp
 
 CMakeFiles/IceShaver.dir/TextPartParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/TextPartParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/TextPartParser.cpp > CMakeFiles/IceShaver.dir/TextPartParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TextPartParser.cpp > CMakeFiles/IceShaver.dir/TextPartParser.cpp.i
 
 CMakeFiles/IceShaver.dir/TextPartParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/TextPartParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/TextPartParser.cpp -o CMakeFiles/IceShaver.dir/TextPartParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TextPartParser.cpp -o CMakeFiles/IceShaver.dir/TextPartParser.cpp.s
 
 CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o: ../ToNGramToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/ToNGramToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/ToNGramToken.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/ToNGramToken.cpp
 
 CMakeFiles/IceShaver.dir/ToNGramToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/ToNGramToken.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/ToNGramToken.cpp > CMakeFiles/IceShaver.dir/ToNGramToken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/ToNGramToken.cpp > CMakeFiles/IceShaver.dir/ToNGramToken.cpp.i
 
 CMakeFiles/IceShaver.dir/ToNGramToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/ToNGramToken.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/ToNGramToken.cpp -o CMakeFiles/IceShaver.dir/ToNGramToken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/ToNGramToken.cpp -o CMakeFiles/IceShaver.dir/ToNGramToken.cpp.s
 
 CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o: ../TokenAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenAnalyzer.cpp
 
 CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenAnalyzer.cpp > CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenAnalyzer.cpp > CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.i
 
 CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenAnalyzer.cpp -o CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenAnalyzer.cpp -o CMakeFiles/IceShaver.dir/TokenAnalyzer.cpp.s
 
 CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o: ../TokenGenerater.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenGenerater.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/TokenGenerater.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenGenerater.cpp
 
 CMakeFiles/IceShaver.dir/TokenGenerater.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/TokenGenerater.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenGenerater.cpp > CMakeFiles/IceShaver.dir/TokenGenerater.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenGenerater.cpp > CMakeFiles/IceShaver.dir/TokenGenerater.cpp.i
 
 CMakeFiles/IceShaver.dir/TokenGenerater.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/TokenGenerater.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/TokenGenerater.cpp -o CMakeFiles/IceShaver.dir/TokenGenerater.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/TokenGenerater.cpp -o CMakeFiles/IceShaver.dir/TokenGenerater.cpp.s
 
 CMakeFiles/IceShaver.dir/WindowMatch.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/WindowMatch.cpp.o: ../WindowMatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/IceShaver.dir/WindowMatch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/WindowMatch.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/WindowMatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/IceShaver.dir/WindowMatch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/WindowMatch.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/WindowMatch.cpp
 
 CMakeFiles/IceShaver.dir/WindowMatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/WindowMatch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/WindowMatch.cpp > CMakeFiles/IceShaver.dir/WindowMatch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/WindowMatch.cpp > CMakeFiles/IceShaver.dir/WindowMatch.cpp.i
 
 CMakeFiles/IceShaver.dir/WindowMatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/WindowMatch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/WindowMatch.cpp -o CMakeFiles/IceShaver.dir/WindowMatch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/WindowMatch.cpp -o CMakeFiles/IceShaver.dir/WindowMatch.cpp.s
 
 CMakeFiles/IceShaver.dir/main.cpp.o: CMakeFiles/IceShaver.dir/flags.make
 CMakeFiles/IceShaver.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/IceShaver.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/main.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/IceShaver.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IceShaver.dir/main.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/main.cpp
 
 CMakeFiles/IceShaver.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IceShaver.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/main.cpp > CMakeFiles/IceShaver.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/main.cpp > CMakeFiles/IceShaver.dir/main.cpp.i
 
 CMakeFiles/IceShaver.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IceShaver.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/main.cpp -o CMakeFiles/IceShaver.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/main.cpp -o CMakeFiles/IceShaver.dir/main.cpp.s
 
 # Object files for target IceShaver
 IceShaver_OBJECTS = \
@@ -368,7 +368,7 @@ IceShaver: MIPSResolver/libMIPSResolver.a
 IceShaver: SuffixTreeResolver/libSuffixTreeResolver.a
 IceShaver: JAVAResolver/libJAVAResolver.a
 IceShaver: CMakeFiles/IceShaver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable IceShaver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable IceShaver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IceShaver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -381,6 +381,6 @@ CMakeFiles/IceShaver.dir/clean:
 .PHONY : CMakeFiles/IceShaver.dir/clean
 
 CMakeFiles/IceShaver.dir/depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/Desktop/代码克隆检测项目1.7 /home/gdzhang/Desktop/代码克隆检测项目1.7 /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles/IceShaver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7 /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7 /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles/IceShaver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/IceShaver.dir/depend
 

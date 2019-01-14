@@ -48,10 +48,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/CMakeFiles /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/CMakeFiles/progress.marks
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release/CMakeFiles 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/CMakeFiles /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/JAVAResolver/CMakeFiles/progress.marks
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/clean
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 JAVAResolver/CMakeFiles/JAVAResolver.dir/rule:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/CMakeFiles/JAVAResolver.dir/rule
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f CMakeFiles/Makefile2 JAVAResolver/CMakeFiles/JAVAResolver.dir/rule
 .PHONY : JAVAResolver/CMakeFiles/JAVAResolver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ JAVAResolver: JAVAResolver/CMakeFiles/JAVAResolver.dir/rule
 
 # fast build rule for target.
 JAVAResolver/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/build
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/build
 .PHONY : JAVAResolver/fast
 
 JavaClassToToken.o: JavaClassToToken.cpp.o
@@ -131,7 +131,7 @@ JavaClassToToken.o: JavaClassToToken.cpp.o
 
 # target to build an object file
 JavaClassToToken.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.o
 .PHONY : JavaClassToToken.cpp.o
 
 JavaClassToToken.i: JavaClassToToken.cpp.i
@@ -140,7 +140,7 @@ JavaClassToToken.i: JavaClassToToken.cpp.i
 
 # target to preprocess a source file
 JavaClassToToken.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.i
 .PHONY : JavaClassToToken.cpp.i
 
 JavaClassToToken.s: JavaClassToToken.cpp.s
@@ -149,7 +149,7 @@ JavaClassToToken.s: JavaClassToToken.cpp.s
 
 # target to generate assembly for a file
 JavaClassToToken.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaClassToToken.cpp.s
 .PHONY : JavaClassToToken.cpp.s
 
 JavaPertreatment.o: JavaPertreatment.cpp.o
@@ -158,7 +158,7 @@ JavaPertreatment.o: JavaPertreatment.cpp.o
 
 # target to build an object file
 JavaPertreatment.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.o
 .PHONY : JavaPertreatment.cpp.o
 
 JavaPertreatment.i: JavaPertreatment.cpp.i
@@ -167,7 +167,7 @@ JavaPertreatment.i: JavaPertreatment.cpp.i
 
 # target to preprocess a source file
 JavaPertreatment.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.i
 .PHONY : JavaPertreatment.cpp.i
 
 JavaPertreatment.s: JavaPertreatment.cpp.s
@@ -176,7 +176,7 @@ JavaPertreatment.s: JavaPertreatment.cpp.s
 
 # target to generate assembly for a file
 JavaPertreatment.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaPertreatment.cpp.s
 .PHONY : JavaPertreatment.cpp.s
 
 JavaResolver.o: JavaResolver.cpp.o
@@ -185,7 +185,7 @@ JavaResolver.o: JavaResolver.cpp.o
 
 # target to build an object file
 JavaResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.o
 .PHONY : JavaResolver.cpp.o
 
 JavaResolver.i: JavaResolver.cpp.i
@@ -194,7 +194,7 @@ JavaResolver.i: JavaResolver.cpp.i
 
 # target to preprocess a source file
 JavaResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.i
 .PHONY : JavaResolver.cpp.i
 
 JavaResolver.s: JavaResolver.cpp.s
@@ -203,7 +203,7 @@ JavaResolver.s: JavaResolver.cpp.s
 
 # target to generate assembly for a file
 JavaResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(MAKE) -f JAVAResolver/CMakeFiles/JAVAResolver.dir/build.make JAVAResolver/CMakeFiles/JAVAResolver.dir/JavaResolver.cpp.s
 .PHONY : JavaResolver.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

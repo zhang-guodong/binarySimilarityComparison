@@ -43,10 +43,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/depend.make
@@ -59,68 +59,68 @@ include SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o: ../SuffixTreeResolver/Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp > CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp > CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.i
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp -o CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Edge.cpp -o CMakeFiles/SuffixTreeResolver.dir/Edge.cpp.s
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o: ../SuffixTreeResolver/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/Node.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp > CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp > CMakeFiles/SuffixTreeResolver.dir/Node.cpp.i
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp -o CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/Node.cpp -o CMakeFiles/SuffixTreeResolver.dir/Node.cpp.s
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o: ../SuffixTreeResolver/SuffixTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.i
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTree.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTree.cpp.s
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o: ../SuffixTreeResolver/SuffixTreeMatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.i
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeMatch.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeMatch.cpp.s
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/flags.make
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o: ../SuffixTreeResolver/SuffixTreeResolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o -c /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o -c /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp > CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.i
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver/SuffixTreeResolver.cpp -o CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.s
 
 # Object files for target SuffixTreeResolver
 SuffixTreeResolver_OBJECTS = \
@@ -140,9 +140,9 @@ SuffixTreeResolver/libSuffixTreeResolver.a: SuffixTreeResolver/CMakeFiles/Suffix
 SuffixTreeResolver/libSuffixTreeResolver.a: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/SuffixTreeResolver.cpp.o
 SuffixTreeResolver/libSuffixTreeResolver.a: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build.make
 SuffixTreeResolver/libSuffixTreeResolver.a: SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libSuffixTreeResolver.a"
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -P CMakeFiles/SuffixTreeResolver.dir/cmake_clean_target.cmake
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SuffixTreeResolver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libSuffixTreeResolver.a"
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -P CMakeFiles/SuffixTreeResolver.dir/cmake_clean_target.cmake
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SuffixTreeResolver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build: SuffixTreeResolver/libSuffixTreeResolver.a
@@ -150,10 +150,10 @@ SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build: SuffixTreeResolver/l
 .PHONY : SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/build
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/clean:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -P CMakeFiles/SuffixTreeResolver.dir/cmake_clean.cmake
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver && $(CMAKE_COMMAND) -P CMakeFiles/SuffixTreeResolver.dir/cmake_clean.cmake
 .PHONY : SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/clean
 
 SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/Desktop/代码克隆检测项目1.7 /home/gdzhang/Desktop/代码克隆检测项目1.7/SuffixTreeResolver /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7 /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/SuffixTreeResolver /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : SuffixTreeResolver/CMakeFiles/SuffixTreeResolver.dir/depend
 

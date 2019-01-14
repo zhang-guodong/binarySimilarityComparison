@@ -48,10 +48,10 @@ RM = /home/gdzhang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4886.39/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7
+CMAKE_SOURCE_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/MIPSResolver/CMakeFiles/progress.marks
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/MIPSResolver/CMakeFiles/progress.marks
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/clean
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/preinstall
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MIPSResolver/CMakeFiles/MIPSResolver.dir/rule:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/CMakeFiles/MIPSResolver.dir/rule
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 MIPSResolver/CMakeFiles/MIPSResolver.dir/rule
 .PHONY : MIPSResolver/CMakeFiles/MIPSResolver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ MIPSResolver: MIPSResolver/CMakeFiles/MIPSResolver.dir/rule
 
 # fast build rule for target.
 MIPSResolver/fast:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/build
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/build
 .PHONY : MIPSResolver/fast
 
 FunctionAnalyzer.o: FunctionAnalyzer.cpp.o
@@ -131,7 +131,7 @@ FunctionAnalyzer.o: FunctionAnalyzer.cpp.o
 
 # target to build an object file
 FunctionAnalyzer.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.o
 .PHONY : FunctionAnalyzer.cpp.o
 
 FunctionAnalyzer.i: FunctionAnalyzer.cpp.i
@@ -140,7 +140,7 @@ FunctionAnalyzer.i: FunctionAnalyzer.cpp.i
 
 # target to preprocess a source file
 FunctionAnalyzer.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.i
 .PHONY : FunctionAnalyzer.cpp.i
 
 FunctionAnalyzer.s: FunctionAnalyzer.cpp.s
@@ -149,7 +149,7 @@ FunctionAnalyzer.s: FunctionAnalyzer.cpp.s
 
 # target to generate assembly for a file
 FunctionAnalyzer.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionAnalyzer.cpp.s
 .PHONY : FunctionAnalyzer.cpp.s
 
 FunctionCutter.o: FunctionCutter.cpp.o
@@ -158,7 +158,7 @@ FunctionCutter.o: FunctionCutter.cpp.o
 
 # target to build an object file
 FunctionCutter.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.o
 .PHONY : FunctionCutter.cpp.o
 
 FunctionCutter.i: FunctionCutter.cpp.i
@@ -167,7 +167,7 @@ FunctionCutter.i: FunctionCutter.cpp.i
 
 # target to preprocess a source file
 FunctionCutter.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.i
 .PHONY : FunctionCutter.cpp.i
 
 FunctionCutter.s: FunctionCutter.cpp.s
@@ -176,7 +176,7 @@ FunctionCutter.s: FunctionCutter.cpp.s
 
 # target to generate assembly for a file
 FunctionCutter.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/FunctionCutter.cpp.s
 .PHONY : FunctionCutter.cpp.s
 
 MIPSCodeResolver.o: MIPSCodeResolver.cpp.o
@@ -185,7 +185,7 @@ MIPSCodeResolver.o: MIPSCodeResolver.cpp.o
 
 # target to build an object file
 MIPSCodeResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.o
 .PHONY : MIPSCodeResolver.cpp.o
 
 MIPSCodeResolver.i: MIPSCodeResolver.cpp.i
@@ -194,7 +194,7 @@ MIPSCodeResolver.i: MIPSCodeResolver.cpp.i
 
 # target to preprocess a source file
 MIPSCodeResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.i
 .PHONY : MIPSCodeResolver.cpp.i
 
 MIPSCodeResolver.s: MIPSCodeResolver.cpp.s
@@ -203,7 +203,7 @@ MIPSCodeResolver.s: MIPSCodeResolver.cpp.s
 
 # target to generate assembly for a file
 MIPSCodeResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCodeResolver.cpp.s
 .PHONY : MIPSCodeResolver.cpp.s
 
 MIPSCommand.o: MIPSCommand.cpp.o
@@ -212,7 +212,7 @@ MIPSCommand.o: MIPSCommand.cpp.o
 
 # target to build an object file
 MIPSCommand.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.o
 .PHONY : MIPSCommand.cpp.o
 
 MIPSCommand.i: MIPSCommand.cpp.i
@@ -221,7 +221,7 @@ MIPSCommand.i: MIPSCommand.cpp.i
 
 # target to preprocess a source file
 MIPSCommand.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.i
 .PHONY : MIPSCommand.cpp.i
 
 MIPSCommand.s: MIPSCommand.cpp.s
@@ -230,7 +230,7 @@ MIPSCommand.s: MIPSCommand.cpp.s
 
 # target to generate assembly for a file
 MIPSCommand.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommand.cpp.s
 .PHONY : MIPSCommand.cpp.s
 
 MIPSCommandFinder.o: MIPSCommandFinder.cpp.o
@@ -239,7 +239,7 @@ MIPSCommandFinder.o: MIPSCommandFinder.cpp.o
 
 # target to build an object file
 MIPSCommandFinder.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.o
 .PHONY : MIPSCommandFinder.cpp.o
 
 MIPSCommandFinder.i: MIPSCommandFinder.cpp.i
@@ -248,7 +248,7 @@ MIPSCommandFinder.i: MIPSCommandFinder.cpp.i
 
 # target to preprocess a source file
 MIPSCommandFinder.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.i
 .PHONY : MIPSCommandFinder.cpp.i
 
 MIPSCommandFinder.s: MIPSCommandFinder.cpp.s
@@ -257,7 +257,7 @@ MIPSCommandFinder.s: MIPSCommandFinder.cpp.s
 
 # target to generate assembly for a file
 MIPSCommandFinder.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandFinder.cpp.s
 .PHONY : MIPSCommandFinder.cpp.s
 
 MIPSCommandResolver.o: MIPSCommandResolver.cpp.o
@@ -266,7 +266,7 @@ MIPSCommandResolver.o: MIPSCommandResolver.cpp.o
 
 # target to build an object file
 MIPSCommandResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.o
 .PHONY : MIPSCommandResolver.cpp.o
 
 MIPSCommandResolver.i: MIPSCommandResolver.cpp.i
@@ -275,7 +275,7 @@ MIPSCommandResolver.i: MIPSCommandResolver.cpp.i
 
 # target to preprocess a source file
 MIPSCommandResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.i
 .PHONY : MIPSCommandResolver.cpp.i
 
 MIPSCommandResolver.s: MIPSCommandResolver.cpp.s
@@ -284,7 +284,7 @@ MIPSCommandResolver.s: MIPSCommandResolver.cpp.s
 
 # target to generate assembly for a file
 MIPSCommandResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSCommandResolver.cpp.s
 .PHONY : MIPSCommandResolver.cpp.s
 
 MIPSOperationResolver.o: MIPSOperationResolver.cpp.o
@@ -293,7 +293,7 @@ MIPSOperationResolver.o: MIPSOperationResolver.cpp.o
 
 # target to build an object file
 MIPSOperationResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.o
 .PHONY : MIPSOperationResolver.cpp.o
 
 MIPSOperationResolver.i: MIPSOperationResolver.cpp.i
@@ -302,7 +302,7 @@ MIPSOperationResolver.i: MIPSOperationResolver.cpp.i
 
 # target to preprocess a source file
 MIPSOperationResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.i
 .PHONY : MIPSOperationResolver.cpp.i
 
 MIPSOperationResolver.s: MIPSOperationResolver.cpp.s
@@ -311,7 +311,7 @@ MIPSOperationResolver.s: MIPSOperationResolver.cpp.s
 
 # target to generate assembly for a file
 MIPSOperationResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSOperationResolver.cpp.s
 .PHONY : MIPSOperationResolver.cpp.s
 
 MIPSPretreatment.o: MIPSPretreatment.cpp.o
@@ -320,7 +320,7 @@ MIPSPretreatment.o: MIPSPretreatment.cpp.o
 
 # target to build an object file
 MIPSPretreatment.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.o
 .PHONY : MIPSPretreatment.cpp.o
 
 MIPSPretreatment.i: MIPSPretreatment.cpp.i
@@ -329,7 +329,7 @@ MIPSPretreatment.i: MIPSPretreatment.cpp.i
 
 # target to preprocess a source file
 MIPSPretreatment.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.i
 .PHONY : MIPSPretreatment.cpp.i
 
 MIPSPretreatment.s: MIPSPretreatment.cpp.s
@@ -338,7 +338,7 @@ MIPSPretreatment.s: MIPSPretreatment.cpp.s
 
 # target to generate assembly for a file
 MIPSPretreatment.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSPretreatment.cpp.s
 .PHONY : MIPSPretreatment.cpp.s
 
 MIPSResolver.o: MIPSResolver.cpp.o
@@ -347,7 +347,7 @@ MIPSResolver.o: MIPSResolver.cpp.o
 
 # target to build an object file
 MIPSResolver.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.o
 .PHONY : MIPSResolver.cpp.o
 
 MIPSResolver.i: MIPSResolver.cpp.i
@@ -356,7 +356,7 @@ MIPSResolver.i: MIPSResolver.cpp.i
 
 # target to preprocess a source file
 MIPSResolver.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.i
 .PHONY : MIPSResolver.cpp.i
 
 MIPSResolver.s: MIPSResolver.cpp.s
@@ -365,7 +365,7 @@ MIPSResolver.s: MIPSResolver.cpp.s
 
 # target to generate assembly for a file
 MIPSResolver.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolver.cpp.s
 .PHONY : MIPSResolver.cpp.s
 
 MIPSResolverUtil.o: MIPSResolverUtil.cpp.o
@@ -374,7 +374,7 @@ MIPSResolverUtil.o: MIPSResolverUtil.cpp.o
 
 # target to build an object file
 MIPSResolverUtil.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.o
 .PHONY : MIPSResolverUtil.cpp.o
 
 MIPSResolverUtil.i: MIPSResolverUtil.cpp.i
@@ -383,7 +383,7 @@ MIPSResolverUtil.i: MIPSResolverUtil.cpp.i
 
 # target to preprocess a source file
 MIPSResolverUtil.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.i
 .PHONY : MIPSResolverUtil.cpp.i
 
 MIPSResolverUtil.s: MIPSResolverUtil.cpp.s
@@ -392,7 +392,7 @@ MIPSResolverUtil.s: MIPSResolverUtil.cpp.s
 
 # target to generate assembly for a file
 MIPSResolverUtil.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/MIPSResolverUtil.cpp.s
 .PHONY : MIPSResolverUtil.cpp.s
 
 SectionAnalyzer.o: SectionAnalyzer.cpp.o
@@ -401,7 +401,7 @@ SectionAnalyzer.o: SectionAnalyzer.cpp.o
 
 # target to build an object file
 SectionAnalyzer.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.o
 .PHONY : SectionAnalyzer.cpp.o
 
 SectionAnalyzer.i: SectionAnalyzer.cpp.i
@@ -410,7 +410,7 @@ SectionAnalyzer.i: SectionAnalyzer.cpp.i
 
 # target to preprocess a source file
 SectionAnalyzer.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.i
 .PHONY : SectionAnalyzer.cpp.i
 
 SectionAnalyzer.s: SectionAnalyzer.cpp.s
@@ -419,7 +419,7 @@ SectionAnalyzer.s: SectionAnalyzer.cpp.s
 
 # target to generate assembly for a file
 SectionAnalyzer.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/SectionAnalyzer.cpp.s
 .PHONY : SectionAnalyzer.cpp.s
 
 TableAnalyzer.o: TableAnalyzer.cpp.o
@@ -428,7 +428,7 @@ TableAnalyzer.o: TableAnalyzer.cpp.o
 
 # target to build an object file
 TableAnalyzer.cpp.o:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.o
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.o
 .PHONY : TableAnalyzer.cpp.o
 
 TableAnalyzer.i: TableAnalyzer.cpp.i
@@ -437,7 +437,7 @@ TableAnalyzer.i: TableAnalyzer.cpp.i
 
 # target to preprocess a source file
 TableAnalyzer.cpp.i:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.i
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.i
 .PHONY : TableAnalyzer.cpp.i
 
 TableAnalyzer.s: TableAnalyzer.cpp.s
@@ -446,7 +446,7 @@ TableAnalyzer.s: TableAnalyzer.cpp.s
 
 # target to generate assembly for a file
 TableAnalyzer.cpp.s:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.s
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(MAKE) -f MIPSResolver/CMakeFiles/MIPSResolver.dir/build.make MIPSResolver/CMakeFiles/MIPSResolver.dir/TableAnalyzer.cpp.s
 .PHONY : TableAnalyzer.cpp.s
 
 # Help Target
@@ -505,6 +505,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gdzhang/Desktop/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gdzhang/CLionProjects/binarySimilarityComparison/代码克隆检测项目1.7/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
